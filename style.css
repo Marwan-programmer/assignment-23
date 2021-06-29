@@ -1,0 +1,72 @@
+*{
+
+    box-sizing: border-box;
+  }
+  form{
+    width: 40%;
+    margin: 50px auto 0;
+    padding: 10px;
+    border: solid 2px rgba(255, 255, 255, 0.5);   
+    text-align: center;
+    border: #000 1px solid;
+  }
+  
+  form img{
+    width: 100px;
+    margin-bottom: 10px;
+  
+  }
+  
+  form input{
+    font-size: 20px;
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    color: #000;
+    border: 1px solid  rgb(0, 0, 0);
+    padding: 10px;
+  }
+  
+  
+  form .input-fo{
+    border-width: 0 0 1px 0;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  form .input-fo:focus{
+  
+    background-color: rgba(0, 0, 0, 0.103);
+    outline: none;
+    color: #000;
+  }
+  
+  
+  form input[type="submit"]:hover{
+    background-color: rgba(0, 0, 0, 0.034); 
+  }
+  
+  
+  main{
+  
+    text-align: center;
+  
+  }
+  
+  #gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+    width:50%;
+    margin: 0 auto;
+    gap:5px;
+    width:100%
+  }
+  
+  .card {
+  width:30%;
+  
+    background-color: rgb(180, 138, 138);
+  }
